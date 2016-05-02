@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title> &#187; räumliche konstruktion</title>
+	<atom:link href="http://computationalspaces.org/projekte/raeumliche-konstruktion/feed/" rel="self" type="application/rss+xml" />
+	<link>http://computationalspaces.org</link>
+	<description></description>
+	<lastBuildDate>Mon, 07 Dec 2015 16:37:38 +0000</lastBuildDate>
+	<language>de-DE</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3.1</generator>
+	<item>
+		<title>Rodtschenko Ecken</title>
+		<link>http://computationalspaces.org/raeumliche-konstruktion/</link>
+		<comments>http://computationalspaces.org/raeumliche-konstruktion/#comments</comments>
+		<pubDate>Thu, 22 Aug 2013 12:40:51 +0000</pubDate>
+		<dc:creator><![CDATA[spreading]]></dc:creator>
+				<category><![CDATA[räumliche konstruktion]]></category>
+
+		<guid isPermaLink="false">http://computationalspaces.org/?p=3328</guid>
+		<description><![CDATA[von Christian Pietschmann &#124; Hilla Herzog &#124; Hasbi Adenan &#124; Lion Schramm Idee : Die Idee ist die Rodschenko-Kunst auf modern Kunstform zu gestalten. als Inspiration benutzen wir ein Bild von Rodtschenko : Das Bild ensteht von Kreisen und Linie. diese Elemente soll frei bewegen und haben wir uns am Ende entschieden, dass die Animation [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><strong>von Christian Pietschmann | Hilla Herzog | Hasbi Adenan | Lion Schramm</strong></p>
+<p><strong>Idee : </strong></p>
+<p>Die Idee ist die Rodschenko-Kunst auf modern Kunstform zu gestalten.<br />
+als Inspiration benutzen wir ein Bild von Rodtschenko :</p>
+<p><a rel="attachment wp-att-3337" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013_hamburg_rod_graphics_02"><img class="alignnone size-medium wp-image-3337" src="../../../wp-content/uploads/2013_hamburg_rod_graphics_02-242x300.jpg" alt="" width="242" height="300" /></a></p>
+<p><a rel="attachment wp-att-3337" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013_hamburg_rod_graphics_02"></a>Das Bild ensteht von Kreisen und Linie. diese Elemente soll frei bewegen und haben wir uns am Ende entschieden, dass die Animation von Kreisen statisch und die Linie abhängig von Leute sein soll.</p>
+<p>Wir haben das Skluptur auf Papier gebaut und dieses Skultur besteht aus verschiedene Layer bzw Stufen. Wenn man mit Projektor beleuchtet, gibt dann am ende eine ähnliche Effekt vom Schwarzfullen und Linie wie in das Rodtschenko-Bild</p>
+<p><strong>Technische Umsetzung : </strong></p>
+<p>Wir haben Processing für die Animation und Kinect + SimpleOpenNI für die Interaction benutzt.<br />
+Das gesamte Projekt wurde in Java Programmiert. Kinect mit Simple OpenNI benutzen wir als library in das projekt<br />
+Ausserdem benutzen wir auch in das Projekt das Maskingtools um Masking bilder für Animation-grenze und Positionen zu erzeugen</p>
+<p>Als Animation haben wir Kreisen von 3 verschiedene Punkte, die immer vergroßt werden. jede punkt beinhaltet 5 Kreisen und hat verschiedene (zufällige) Anfang-Große.<br />
+Wenn die Animation zusammen geführt werden, werden die Kreisen (Zufällige-)Schnitte bilden. Diese Schnit werden später mit Schwarzefüllung gefüllt.</p>
+<p>Für das Algorithm beim Schwarzefüllung wie in Rodscthenkobild haben wir gleiche Alrgoithm wie in Floodfilling gesetzt. Nach dem Kreise Animation wird gesamte Animation zu Pixel-Bilder umgewandelt. Danach holt das Algorithm Statische-Punkte und mit diese Punkte prüft das Algortihm, ob die Umgebung von die Punkte bereits Schwarz sind, falls nicht dann seine Bereich Schwarz einfarben (und arbeiten das Program weiter in schleifen bis keine Punkt in Pixel-bereich Weiss ist)</p>
+<p>Als Interaction benutzen wir Linie von Rodtschenko Bild. Das Linie entspricht Personen (und seine Position), die von dem Kinect erkannt werden . Das Interaction passiert nur beim links-rechts Bewegung  und das Linie wird nach jede 5 Sekunde neu (zufallig) generiert.</p>
+<p><a rel="attachment wp-att-3330" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-06-21-19-22-51"><img class="alignnone size-medium wp-image-3330" src="../../../wp-content/uploads/2013-06-21-19.22.51-300x224.jpg" alt="" width="300" height="224" /></a></p>
+<p><a rel="attachment wp-att-3331" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-06-21-19-23-20"><img class="alignnone size-medium wp-image-3331" src="../../../wp-content/uploads/2013-06-21-19.23.20-300x224.jpg" alt="" width="300" height="224" /></a></p>
+<p><a rel="attachment wp-att-3329" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-06-21-18-55-54"><img class="alignnone size-medium wp-image-3329" src="../../../wp-content/uploads/2013-06-21-18.55.54-223x300.jpg" alt="Model Einbau" width="223" height="300" /></a></p>
+<p><a rel="attachment wp-att-3332" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-06-21-19-23-38"><img class="alignnone size-medium wp-image-3332" src="../../../wp-content/uploads/2013-06-21-19.23.38-300x224.jpg" alt="" width="300" height="224" /></a></p>
+<p><a rel="attachment wp-att-3333" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-06-21-19-24-06"><img class="alignnone size-medium wp-image-3333" src="../../../wp-content/uploads/2013-06-21-19.24.06-300x224.jpg" alt="" width="300" height="224" /></a></p>
+<p><a rel="attachment wp-att-3334" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-08-03-11-03-54"><img class="alignnone size-medium wp-image-3334" src="../../../wp-content/uploads/2013-08-03-11.03.54-300x224.jpg" alt="" width="300" height="224" /></a></p>
+<p><a rel="attachment wp-att-3335" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-08-03-11-43-15"><img class="alignnone size-medium wp-image-3335" src="../../../wp-content/uploads/2013-08-03-11.43.15-224x300.jpg" alt="" width="224" height="300" /></a></p>
+<p><a rel="attachment wp-att-3335" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-08-03-11-43-15"></a><a rel="attachment wp-att-3336" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/2013-08-03-11-43-29"><img class="alignnone size-medium wp-image-3336" src="../../../wp-content/uploads/2013-08-03-11.43.29-300x224.jpg" alt="" width="300" height="224" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://computationalspaces.org/raeumliche-konstruktion/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Spiral</title>
+		<link>http://computationalspaces.org/raeumliche-konstruktion/</link>
+		<comments>http://computationalspaces.org/raeumliche-konstruktion/#comments</comments>
+		<pubDate>Tue, 20 Aug 2013 16:27:29 +0000</pubDate>
+		<dc:creator><![CDATA[spiral]]></dc:creator>
+				<category><![CDATA[räumliche konstruktion]]></category>
+
+		<guid isPermaLink="false">http://computationalspaces.org/?p=3177</guid>
+		<description><![CDATA[von Florian Huchthausen, Vasilis Ikonomou und Tobias Mainusch Abb. 1 Abb. 2 Abb. 3 Abb. 4 Abb. 5 Werdegang: Modelldesign Von Anfang an hatten wir die Idee eine aus mehreren einzelnen Teilen bestehende Skulptur zu verwenden. Die Teile sollten dabei als ganzes eine Art Kreis, bzw. Spirale bilden, wie in den Abb. 1-3 zu sehen. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>von Florian Huchthausen, Vasilis Ikonomou und Tobias Mainusch</p>
+<p>Abb. 1</p>
+<p><a rel="attachment wp-att-3191" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/foto-am-14-04-2013-um-13-08-2"><img class="alignnone size-full wp-image-3191" src="../../../wp-content/uploads/Foto-am-14-04-2013-um-13.08-2.jpg" alt="" width="640" height="480" /></a></p>
+<p>Abb. 2</p>
+<p><a rel="attachment wp-att-3191" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/foto-am-14-04-2013-um-13-08-2"></a><a rel="attachment wp-att-3192" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/foto-am-14-04-2013-um-13-08-3"><img class="alignnone size-full wp-image-3192" src="../../../wp-content/uploads/Foto-am-14-04-2013-um-13.081.jpg" alt="" width="640" height="480" /></a></p>
+<p>Abb. 3</p>
+<p><a rel="attachment wp-att-3192" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/foto-am-14-04-2013-um-13-08-3"></a><a rel="attachment wp-att-3193" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/foto-am-14-04-2013-um-13-08-3-2"><img class="alignnone size-full wp-image-3193" src="../../../wp-content/uploads/Foto-am-14-04-2013-um-13.08-3.jpg" alt="" width="640" height="480" /></a></p>
+<p>Abb. 4</p>
+<p><a rel="attachment wp-att-3225" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/photo"><img class="alignnone size-medium wp-image-3225" src="../../../wp-content/uploads/photo-225x300.jpg" alt="" width="409" height="545" /></a></p>
+<p>Abb. 5</p>
+<p><a rel="attachment wp-att-3226" href="http://computationalspaces.org/raeumliche-konstruktion /attachment/imag0182"><img class="alignnone size-medium wp-image-3226" src="../../../wp-content/uploads/IMAG0182-179x300.jpg" alt="" width="410" height="688" /></a></p>
+<p><strong>Werdegang:</strong></p>
+<p><strong>Modelldesign<br />
+</strong></p>
+<p>Von Anfang an hatten wir die Idee eine aus mehreren einzelnen Teilen bestehende Skulptur zu verwenden. Die Teile sollten dabei als ganzes eine Art Kreis, bzw. Spirale bilden, wie in den Abb. 1-3 zu sehen. In den Abb. 4-5 ist unser vorläufiges Modell zu sehen. Abb. 4 zeigt den Mapping-Vorgang für die Maske und Abb. 5 unsere Projektion.</p>
+<p>Unsere endgültige Skulptur soll um einiges größer werden (ca 1,50 &#8211; 2 Meter). Außerdem soll sie mehr kreis- bzw. spiralförmig aufgebaut sein.</p>
+<p>Wir haben diverse Materialen als Projektionsebene getestet (Papier, Plexiglass, Alufolie) und sind zu dem Schluss gekommen zerknitterte Alufolie zu verwenden, da diese passende Reflexionseffekte hervorruft (Abb. 6).</p>
+<p><strong>Projektionsdesign</strong></p>
+<p>Zunächst wollten wir darauf dann ein Video projezieren auf dem bspw. eine Fahrradfahrt aus der Ego-Perspektive zu sehen ist. Wenn man dichter an die Skulptur herangeht, sollte sich das Video schneller abspielen bzw der Anschein erweckt werden, dass man sich auf dem Fahrrad schneller bewegt. Aufgrund von Performance-Schwierigkeiten bei der Live-Video-Manipulation mussten wir allerdings diese Idee verwerfen.</p>
+<p>Jetzt verwenden wir eine spiralförmige Animation, die aus einzelnen Punkten besteht. Wenn man sich auf die Skulptur zu bewegt, kommt die Spirale auf einen zu (eine Art Zoom-Effekt) und die Drehgeschwindigkeit wird erhöht,. Damit soll das Gefühl erzeugt werden, als würde man in die Spirale hinein &#8220;gesaugt&#8221; werden.</p>
+<p><strong>Technische Details</strong></p>
+<p>Für die Umsetzung wurden die Bibliotheken von Processing und SimpleOpenNI verwendet; der gesamte Projektcode wurde in Java programmiert. Die verwendeten Bibliotheken ermöglichen die Verbindung zur Microsoft Kinect, mit der die Entfernung des Betrachters zur Skulptur anhand des Tiefenbildes der Kinect ermittelt wird.</p>
+<p>Die erzeugte Animation besteht aus einer spiralförmigen Anordnung von weißen Kreisen, die abhängig von der zuvor ermittelten Entfernung des Betrachters rotiert sowie gezoomt wird. Das Programm bietet zusätzlich die Option, eine Sounddatei einzubinden und abzuspielen, die relativ zur berechneten Entfernung in ihrer Lautstärke modifiziert wird. Nähert sich der Betrachter dem Objekt, wird somit die Lautstärke erhöht, entfernt er sich andererseits, verringert sich diese.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://computationalspaces.org/raeumliche-konstruktion/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Fraktale Transparenz</title>
+		<link>http://computationalspaces.org/raeumliche-konstruktion/</link>
+		<comments>http://computationalspaces.org/raeumliche-konstruktion/#comments</comments>
+		<pubDate>Mon, 08 Jul 2013 12:10:08 +0000</pubDate>
+		<dc:creator><![CDATA[fraktale]]></dc:creator>
+				<category><![CDATA[räumliche konstruktion]]></category>
+
+		<guid isPermaLink="false">http://computationalspaces.org/?p=3175</guid>
+		<description><![CDATA[Technische Details Die Technische Umsetzung erfolgte mit Hilfe von Processing (processing.org) und SimpleOpenNI (openni.org) als Schnittstelle zur Microsoft Kinect. Das  Grunddreieck wird mit Hilfe von einfachen Linien gezeichnet und bleibt fix kann aber durch das Verändern der Höhen- und Breitenvariablen angepasst werden. Die Bewegung der Linien ist in einzelne Methoden ausgelagert und erfolgt in Abhängigkeit [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><strong>Technische Details </strong><br />
+<em>Die Technische Umsetzung erfolgte mit Hilfe von Processing (processing.org) und SimpleOpenNI (openni.org) als Schnittstelle zur Microsoft Kinect. Das  Grunddreieck wird mit Hilfe von einfachen Linien gezeichnet und bleibt fix kann aber durch das Verändern der Höhen- und Breitenvariablen angepasst werden. Die Bewegung der Linien ist in einzelne Methoden ausgelagert und erfolgt in Abhängigkeit von der mittleren Entfernung des Tiefenbildes, welches die Kinect liefert.</em></p>
+<p><em> </em></p>
+<p><em>Für die Ermittlung der Entfernung werden alle Pixel des Tiefenbildes, die die einzelnen Entfernungen beinhalten, aufsummiert und durch die Anzahl der Pixel geteilt. Es werden einzelne Methoden für bestimmte Bewegungen in Abhängigkeit von der mittleren Entfernung aufgerufen. Die gesamte Bewegung ist in 4 Teilbewegungen aufgeteilt, die jeweils der Reihe nach aufgerufen werden. Wenn eine Bewegung zu Ende ist, wird mit Hilfe von Flags die nächste Bewegung eingeleitet. </em></p>
+<p><em> </em></p>
+<p><em>Das Zeichnen der Linien und deren Bewegung erfolgt von/zu jeder Seite des Dreiecks von dem Mittelpunkt ausgehend. In jeder Bewegung sind sechs Linien beteiligt, die durch das Verändern deren X/Y Koordinaten manipuliert werden. Die Verfeinerung der Struktur erfolgt symmetrisch von der Mitte zu den Enden des Dreiecks, dabei werden nach dem gleichen Prinzip jeweils kleinere Dreiecke erstellt.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>http://computationalspaces.org/raeumliche-konstruktion/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Surreale Kausalität</title>
+		<link>http://computationalspaces.org/raeumliche-konstruktion/</link>
+		<comments>http://computationalspaces.org/raeumliche-konstruktion/#comments</comments>
+		<pubDate>Thu, 04 Jul 2013 18:49:01 +0000</pubDate>
+		<dc:creator><![CDATA[kausalitaet]]></dc:creator>
+				<category><![CDATA[räumliche konstruktion]]></category>
+
+		<guid isPermaLink="false">http://computationalspaces.org/?p=3232</guid>
+		<description><![CDATA[von Milena Dreier, Tobias Meurer und Christo Papanouskas Grundidee Die Idee ist es, dem Besucher die Möglichkeit zu geben, den Raum der ihn umgibt vollkommen neu zu gestalten. Durch die Reflektion von Licht auf verschiedenen Oberflächen bekommt man ein vollkommen anderes Raumgefühl. Man hat vor und um sich diesen surrealen und gewollt leblosen Raum, in [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>von Milena Dreier, Tobias Meurer und Christo Papanouskas</p>
+<h1>Grundidee</h1>
+<p>Die Idee ist es, dem Besucher die Möglichkeit zu geben, den Raum der ihn umgibt vollkommen neu zu gestalten. Durch die Reflektion von Licht auf verschiedenen Oberflächen bekommt man ein vollkommen anderes Raumgefühl. Man hat vor und um sich diesen surrealen und gewollt leblosen Raum, in dessen Mitte dieser kubistische Monolith steht. Alles wartet nur darauf, durch Bewegung belebt zu werden.</p>
+<h1>Konzept</h1>
+<p>Wir haben ein System aus mehreren Kinects und Beamern, die einen Monolithen aus verschiedenen Materialien beleuchten. Die Farbflächen reagieren auf Bewegung und schaffen so ein eigenes Farb- und Formklima.<br />
+Der Monolith ist ca. 2,50 Meter hoch und besteht aus einem Rohrgerüst. Die Flächen bestehen aus Papier.</p>
+<h1>Technische Umsetzung</h1>
+<p>Unser gesamtes Projekt ist mit Java 1.7 implementiert.<br />
+Zur grafischen Darstellung verwenden wir die <a href="http://www.processing.org/" target="_blank">Processing</a> 2 Bibliothek. Die Ansteuerung der Kinect erfolgt mit Hilfe von <a href="https://code.google.com/p/simple-openni/" target="_blank">SimpleOpenNI</a>.</p>
+<p>Die einzelnen Flächen des Monolithen können auf Code-Basis einzeln angesprochen werden, sodass jeder Fläche eine eigene Farbe zugewiesen werden kann. Das Programm setzt die Bewegungen des Benutzers in sich verändernde Farben um.</p>
+<h1>Ausstellungen</h1>
+<ul>
+<li>03. August 2013, Bucerius Kunst Forum, <a href="http://www.buceriuskunstforum.de/veranstaltungen/tag-der-offenen-tuer/" target="_blank">Tag der offenen Tür &#8211; Typisch russisch!</a><br />
+<a href="http://russland-heute.de/lifestyle/2013/08/07/innovative_kunst_rodtschenko_in_hamburg_25325.html" target="_blank">Innovative Kunst: Rodtschenko in Hamburg, Russland HEUTE</a></li>
+<li>02. November 2013, HAW Hamburg (Berliner Tor 5, Foyer), <a href="http://nachtdeswissens.hamburg.de/" target="_blank">5. Nacht des Wissens</a></li>
+</ul>
+<h1>Impressionen</h1>
+
+<a href='http://computationalspaces.org/raeumliche-konstruktion/attachment/3dmodell1/'><img width="70" height="70" src="http://141.22.32.24/wp-content/uploads/3dModell1-70x70.png" class="attachment-thumbnail" alt="3D Modell des Monoliten, Gitternetz" /></a>
+<a href='http://computationalspaces.org/raeumliche-konstruktion/attachment/3dmosdell2/'><img width="70" height="70" src="http://141.22.32.24/wp-content/uploads/3dMosdell2-70x70.png" class="attachment-thumbnail" alt="3D Modell des Monoliten, Flächen" /></a>
+<a href='http://computationalspaces.org/raeumliche-konstruktion/attachment/foto-2/'><img width="70" height="70" src="http://141.22.32.24/wp-content/uploads/Foto-2-70x70.jpg" class="attachment-thumbnail" alt="Prototyp des Monoliten, Rahmen" /></a>
+<a href='http://computationalspaces.org/raeumliche-konstruktion/attachment/prototypprojektion/'><img width="70" height="70" src="http://141.22.32.24/wp-content/uploads/PrototypProjektion-70x70.jpg" class="attachment-thumbnail" alt="Prototyp des Monoliten, Flächen mit Projektion" /></a>
+<a href='http://computationalspaces.org/raeumliche-konstruktion/attachment/projektionmonitor/'><img width="70" height="70" src="http://141.22.32.24/wp-content/uploads/ProjektionMonitor-70x70.jpg" class="attachment-thumbnail" alt="Darstellung der Projektion auf Monitor" /></a>
+<a href='http://computationalspaces.org/raeumliche-konstruktion/attachment/img_2942/'><img width="70" height="70" src="http://141.22.32.24/wp-content/uploads/IMG_2942-70x70.jpg" class="attachment-thumbnail" alt="Surreale Kausalität" /></a>
+
+]]></content:encoded>
+			<wfw:commentRss>http://computationalspaces.org/raeumliche-konstruktion/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
